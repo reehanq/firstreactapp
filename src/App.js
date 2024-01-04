@@ -4,9 +4,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p>First react app deloyment</p>
+      <ChildComponet/>
     </div>
   );
+}
+
+
+const ChildComponet = () => {
+  return(
+    <div>
+      <p>Learning development</p>
+    </div>
+  )
 }
 
 export default App;
